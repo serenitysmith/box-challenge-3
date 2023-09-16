@@ -30,9 +30,16 @@ const toggleBox = () => {
     }
     
     return (
-        <div style={styles} className="box"
+       <main>
+<div style={styles} className="box"
         onClick={toggleBox} // Add an event listener to toggle the state on click
-        ></div>
+      
+        ></div >
+        
+
+      
+       </main> 
+       
     );
 } 
 /**
